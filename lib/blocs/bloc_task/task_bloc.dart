@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:chnangebetweenblocandcubit/bloc_task/task_event.dart';
-import 'package:chnangebetweenblocandcubit/bloc_task/task_state.dart';
+import 'package:chnangebetweenblocandcubit/blocs/bloc_task/task_event.dart';
+import 'package:chnangebetweenblocandcubit/blocs/bloc_task/task_state.dart';
+import 'package:chnangebetweenblocandcubit/models/task_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:uuid/uuid.dart';
 
-import '../models/task_model.dart';
 
 class TaskBloc extends Bloc<TaskEvent, TasksState> {
   TextEditingController controller = TextEditingController();

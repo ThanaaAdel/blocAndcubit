@@ -2,10 +2,10 @@
 
 
 
+import 'package:chnangebetweenblocandcubit/models/task_model.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 
-import '../models/task_model.dart';
 @immutable
 sealed class TasksState extends Equatable{
   final List<TaskModel> tasksList;
